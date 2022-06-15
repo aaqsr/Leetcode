@@ -22,7 +22,7 @@ int main()
         for (auto it : strs) {
             if (it[pos] != temp) {
                 small = 0;
-                pos-=1
+                pos -= 1;
                 break;
             }
         }
